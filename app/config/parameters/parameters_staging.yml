@@ -1,0 +1,46 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: 3306
+    database_name:
+    database_user:
+    database_password:
+    database_server_version: 5.6
+    mailer_transport: smtp
+    mailer_host:
+    mailer_user:
+    mailer_password:
+    mailer_port:
+    mailer_encryption:
+    recaptcha_public_key:
+    recaptcha_private_key:
+    form_submission_rootdir: '%kernel.root_dir%/../web/formsubmissions/'
+    form_submission_webdir: /formsubmissions/
+    locale: en
+    secret:
+    debug_toolbar: true
+    debug_redirects: false
+    use_assetic_controller: true
+    session_prefix: mysite
+    assetic.node.bin: /usr/bin/node
+    assetic.ruby.bin: /usr/bin/ruby
+    assetic.filter.scss.sass: /usr/local/bin/sass
+    assetic.filter.scss.bin: /usr/local/bin/scss
+    assetic.filter.uglifycss.bin: '%kernel.root_dir%/Resources/node_modules/.bin/uglifycss'
+    assetic.filter.uglifyjs2.bin: '%kernel.root_dir%/Resources/node_modules/.bin/uglifyjs'
+    sp_bower.bower.bin: '%kernel.root_dir%/Resources/node_modules/.bin/bower'
+    requiredlocales: en
+    defaultlocale: en
+    multilanguage: false
+    sentry.dsn: null
+    cdnpath: null
+    websitetitle: MySite
+    searchport: 9200
+    searchindexname: mysite
+    searchindexprefix: mysite
+    analytics.googletagmanager: null
+    analytics.google: null
+    aviary_api_key: null
+    google.api.client_id: null
+    google.api.client_secret: null
+    google.api.dev_key: null
