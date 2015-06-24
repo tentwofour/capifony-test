@@ -80,17 +80,17 @@ Gems
 
 You'll need the following Ruby Gems:
 
-capifony (2.3.0)
-capistrano (2.15.5)
-capistrano-maintenance (0.0.3)
-colored (1.2)
-highline (1.7.2)
-inifile (3.0.0)
-net-scp (1.2.1)
-net-sftp (2.1.2)
-net-ssh (2.9.2)
-net-ssh-gateway (1.2.0)
-ruby-progressbar (1.0.2)
+- capifony (2.3.0)
+- capistrano (2.15.5)
+- capistrano-maintenance (0.0.3)
+- colored (1.2)
+- highline (1.7.2)
+- inifile (3.0.0)
+- net-scp (1.2.1)
+- net-sftp (2.1.2)
+- net-ssh (2.9.2)
+- net-ssh-gateway (1.2.0)
+- ruby-progressbar (1.0.2)
 
 Which all should be installed when you run:
 
