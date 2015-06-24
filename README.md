@@ -107,7 +107,7 @@ From your deployment source:
 cap <stage_name> deploy:setup
 ```
 
-This will run a custom task called 'upload_parameters', in the 'deploy' namespace. It will upload the app/config/parameters/parameters_<stage_name>.yml to the proper place.
+This will run a custom task called 'upload_parameters', in the 'deploy' namespace. It will upload the app/config/parameters/parameters_{stage_name}.yml to the proper place.
 
 Permissions on Servers
 ------------------
