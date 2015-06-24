@@ -117,8 +117,8 @@ To ensure proper permissions for both the webserver user as well as your deploym
 ```bash
 chown -R apache:<deployer> shared/app/logs shared/web/uploads # Ensures deployment user has proper permissions to execute setfacl calls
 chmod g+ws shared/app/logs shared/web/uploads # Makes logs group-writeable, group-sticky for new logs created
-setfacl -R -m u:apache:rwX -m u:stagingdeployment:rwX app/cache app/logs web/uploads # Basic SF2 stuff
-setfacl -dR -m u:apache:rwX -m u:stagingdeployment:rwX app/cache app/logs web/uploads #Basic SF2 stuff
+setfacl -R -m u:apache:rwX -m u:<deployer>:rwX app/cache app/logs web/uploads # Basic SF2 stuff
+setfacl -dR -m u:apache:rwX -m u:<deployer>:rwX app/cache app/logs web/uploads #Basic SF2 stuff
 ```
 
 Parameter files
